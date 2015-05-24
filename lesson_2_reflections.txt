@@ -1,0 +1,5 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+.git directory is created that will store metadata about all the changes that will be made to you repository.
+
+You need to create repository to be able to use all of the version control features you've learned: commit, log, checkout etc.
