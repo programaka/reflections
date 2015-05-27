@@ -11,16 +11,22 @@ If any of your features failed in production, you would be able to return to a p
 
 3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 
+Manual commits allow you to commit a logical change.
+
 4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
 Git was created for versioning code. And when writing code, for example adding a new feature to your code, it often affects multiple files. So it just makes sense to add all the files required for you application to run in a single commit. 
 
 5. How can you use the commands git log and git diff to view the history of files?
+test
+
+git log shows the history of all the commits in the current branch, starting from the currently checked-out commit. And to see what exactly has been changed in a particular commit since one of the previous commits, you can use git diff a_previous_commit_id particualr_commit_id
 
 6. How might using version control make you more confident to make changes that could break something?
+
 You can always go back. No fear to loose something. Imagine you had a version control of your life!
 
 7. Now that you have your workspace set up, what do you want to try using Git for?
 
-to create a repository for my wiki project and use git while working on the project
+To create a repository for my blog project and use git while working on the project.
 
